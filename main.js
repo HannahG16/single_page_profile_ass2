@@ -1,8 +1,7 @@
 function changePic() {
-    document.getElementById("profilePic").src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/594589/adrian-prp.jpg";
+    document.getElementById("profilePic").src = "images/hannah.png";
   }
   
   function normalPic() {
-    document.getElementBy
-    Id("profilePic") .src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/594589/adrian.webp";
+    document.getElementById("profilePic") .src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/594589/adrian.webp";
   }
