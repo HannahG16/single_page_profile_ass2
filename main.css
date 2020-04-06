@@ -1,5 +1,5 @@
 body {
-    /*color: #fff;*/
+    color: rgb(35, 151, 228);
     text-align: center;
     text-shadow: 0 1px 0px rgba(0,0,0,.5);
 }
@@ -12,21 +12,21 @@ header {
 .circles img {
     width: 170px;
     height: 170px;
-    
-    background: url(images/me-liz.jpg) no-repeat; */
+    border-radius: 10%;
+    background: url(images/leo.jpg) no-repeat;
 }
 
 .circles {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    transition: opacity .25s ease-in-out;
+    transition: .25s ease-in-out;
 }
 
 .btn-get-resume .btn {
     font-size: 1.3rem;
     opacity: .75;
-    transition: opacity .25s ease-in-out;
-    color: rgb(33, 33, 139);
+    transition: .25s ease-in-out;
+    color: rgb(35, 151, 228);
     font-family: sans-serif;
 }
 
@@ -54,19 +54,20 @@ h3 {
     font-size: 1.3rem;
     text-decoration: none;
     font-family: 'Bree Serif', serif;
+    
 }
 h3:hover {
     text-decoration: none;
 }
 h4 {
     font-size: 1.5rem;
-    color: rgb(33, 33, 139);
+    color: rgb(35, 151, 228);
     
 }
 i {
 padding: 15px;
 font-family: sans-serif;
-color: rgb(33, 33, 139);
+color: rgb(12, 67, 104);
 
 }
 .links li a .i {
